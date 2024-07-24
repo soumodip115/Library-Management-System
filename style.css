@@ -1,0 +1,151 @@
+/* ..................index............ */
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.p-5 {
+  padding: 3rem !important;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.border {
+  border: 1px solid #dee2e6 !important;
+}
+
+.rounded-3 {
+  border-radius: .3rem !important;
+}
+
+/* Specific Styles */
+.display-5 {
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.fw-bold {
+  font-weight: 700 !important;
+}
+
+.fs-4 {
+  font-size: 1.5rem;
+}
+
+/* Layout Styles */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.align-items-md-stretch {
+  align-items: stretch;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn-outline-light {
+  color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-light:hover {
+  color: #343a40;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+}
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Custom Styles */
+.p-5.mb-4.bg-light.rounded-3 {
+  margin-bottom: 1.5rem !important;
+}
+
+.container-fluid.py-5 h1 {
+  margin-bottom: 1.5rem;
+}
+
+.row.align-items-md-stretch .col-md-6 .h-100.p-5.text-white.bg-dark.rounded-3,
+.row.align-items-md-stretch .col-md-6 .h-100.p-5.bg-light.border.rounded-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row.align-items-md-stretch .col-md-6 .h-100.p-5.bg-light.border.rounded-3 .btn {
+  margin: 5px;
+}
+
+/* .......................index........................ */
