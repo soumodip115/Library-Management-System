@@ -1,0 +1,32 @@
+.row .mb-4{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  flex-shrink: 2;
+}
+
+.row{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    flex-shrink: 2;
+}
+
+
+.card-body{
+  padding: 12px 55px 12px 30px;
+  margin: 9px 15px 1px 1px;
+}
+.size{
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color1{
+background-color: red;
+}
+
